@@ -7,6 +7,8 @@ world.on('M', function (crumb) {
     let args = msg.slice(prefix.length).trim().split(/ +/)
     let cmd = args.shift()
 
+    world.lastMessageTime = 9000
+
     if (cmd == "ping") {
         world.message("Pong!")
     }
