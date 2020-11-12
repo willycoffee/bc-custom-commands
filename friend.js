@@ -15,5 +15,4 @@ world.on('M', function (crumb) {
         world.emit("alert", {
             message: `Sent a friend request to ${user.nickname}`})
         }
-    }
-})
+    })
